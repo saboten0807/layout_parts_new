@@ -2,4 +2,26 @@
 
 /* 回答はここに書いてね */
 
+.main {
+	width: 900px;
+	background-color: #eff3f4;
+	padding: 20px;
+	margin: 0 auto;
+}
+
+.main img:first-child{
+	float: left;
+	margin: 0 20px 10px 0;
+}
+
+.text {
+	font-size: 18px;
+	line-height: 22px;
+	word-break: break-all;
+}
+
+.main img{
+	float: right;
+	margin: 0 0 10px 20px;
+}
 /* 回答はここに書いてね */
