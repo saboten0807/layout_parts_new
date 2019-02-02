@@ -2,4 +2,35 @@
 
 /* 回答はここに書いてね */
 
+table {
+	width: 100%;
+	margin: 0 auto;
+	table-layout: fixed;
+	text-align: center;
+}
+
+tr th{
+	padding: 10px 0;
+	background-color: #2244aa;
+	color: #fff;
+	font-size: 18px;
+	line-height: 26px;
+}
+
+tr td{
+	font-size: 16px;
+	line-height: 22px;
+}
+
+tbody tr:nth-child(even){
+	background-color: #ecf1f2;
+}
+
+td,th{
+	border:1px solid #dedede;
+}
+
+tbody {
+	border-bottom: 2px dashed #000;
+}
 /* 回答はここに書いてね */
