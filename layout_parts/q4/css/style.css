@@ -2,4 +2,49 @@
 
 /* 回答はここに書いてね */
 
+.main_box {
+	padding: 20px;
+}
+
+.main {
+	display: table;
+	width: 100%;
+}
+
+.main:first-child{
+	margin-bottom: 20px;
+}
+
+.main .color {
+	display: table-cell;
+	text-align: center;
+	padding: 20px;
+}
+
+.pink {
+	width: 100px;
+	background-color: #fdc8b8;
+}
+
+.purple {
+	background-color: #e0abd9;
+}
+
+.blue {
+	width: 100px;
+	background-color: #b6d8ed;
+}
+
+.yello {
+	background-color: #e5d32e;
+}
+
+.red {
+	background-color: #ec8f9a;
+}
+
+.green {
+	width: 500px;
+	background-color: #8fdcad;
+}
 /* 回答はここに書いてね */
