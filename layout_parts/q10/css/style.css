@@ -15,7 +15,7 @@
 .text::before{
 	content: "";
 	position: absolute;
-	left:23px;
+	left:25px;
 	top: 152px;
 	display: block;
 	width: 0;
@@ -29,8 +29,8 @@
 .text::after{
 	content: "";
 	position: absolute;
-	left:28px;
-	top: 151px;
+	left:30px;
+	top: 150px;
 	display: block;
 	width: 0;
 	height: 0;
