@@ -74,12 +74,18 @@
 	z-index: 800;
 	top: 120px;
 	left: 120px;
+	position: relative;
 }
 
-.eight:after{
+.eight::after {
+	background-color: #ffefd3;
 	display: block;
 	content: "";
-	z-index: 0;
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	right: 0;
+	top: 0;
 }
 
 .nine {
