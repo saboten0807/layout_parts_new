@@ -63,23 +63,46 @@
 .flex_box {
 	display: flex;
 	justify-content: space-around;
-	align-items: baseline;
+	align-items: flex-end;
 }
 
-.text_box_left {
+.text_wrapper {
+	font-size: 0;
+}
+
+.left_box {
+	width: 300px;
 	display: inline-block;
+}
+
+.right_box {
+	width: 100%;
+	margin-left: -300px;
+	padding-left: 350px;
+	display: inline-block;
+	box-sizing: border-box;
+	vertical-align: top;
+}
+
+.text_box {
+	font-size: 16px;
+}
+
+/*.text_box_left {
+	display: inline-block;
+	width: 300px;
 }
 
 .text_box_right {
 	margin-left: -300px;
 	padding-left: 350px;
-}
-
-.left_text {
-	width: 300px;
-}
-
-.right_text {
+	box-sizing: border-box;
 	width: 100%;
+	display: inline-block;
 }
+
+.right_text, .left_text {
+	font-size: 16px;
+}
+*/
 /* 回答はここに書いてね */
