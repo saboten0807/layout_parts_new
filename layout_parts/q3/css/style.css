@@ -30,7 +30,12 @@ td,th{
 	border:1px solid #dedede;
 }
 
-tbody {
-	border-bottom: 2px dashed #000;
+.food tr:last-child {
+	border-top: 2px dashed #000;
 }
+
+.food tr:first-child {
+	border-top: none;
+}
+
 /* 回答はここに書いてね */
