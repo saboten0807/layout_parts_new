@@ -13,12 +13,12 @@
 	float: left;
 }
 
-.float_text:first-child{
-	margin-right: 25px;
+.float_text{
+	margin-right: 50px;
 }
 
 .float_text:last-child {
-	margin-left: 25px;
+	margin-right: 0;
 }
 
 
@@ -29,15 +29,15 @@
 .table_text {
 	display: table-cell;
 	vertical-align: middle;
+	padding-left: 50px;
+}
+
+.table_text:first-child {
+	padding-left: 0;
 }
 
 .text {
 	width: 205px;
-	margin-right: 0;
-}
-
-.text_right {
-	margin-left: 50px;
 }
 
 
