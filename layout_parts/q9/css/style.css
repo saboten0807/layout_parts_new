@@ -6,21 +6,15 @@
 	width: 500px;
 	height: 333px;
 	margin: 0 auto;
+	position:relative;
 }
 
-.image_box {
-	width: 500px;
-	height: 333px;
-	margin: 0 auto;
-	position: relative;
-}
-
-.image_box_wrapper:hover .image_box img{
+.image_box_wrapper:hover img{
 	transform: scale(1.5,1.5);
 	transition: all 0.5s;
 }
 
-.image_box img {
+.image_box_wrapper img {
 	position: absolute;
 	top: 0;
 	left: 0;
