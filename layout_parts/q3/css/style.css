@@ -9,7 +9,7 @@
 	text-align: center;
 }
 
-tr th{
+.food th{
 	padding: 10px 0;
 	background-color: #2244aa;
 	color: #fff;
@@ -17,17 +17,17 @@ tr th{
 	line-height: 26px;
 }
 
-tr td{
+.food td{
 	font-size: 16px;
 	line-height: 22px;
 }
 
-tbody tr:nth-child(even){
-	background-color: #ecf1f2;
+.food td, .food th{
+	border:1px solid #dedede;
 }
 
-td,th{
-	border:1px solid #dedede;
+.food tr:nth-child(even){
+	background-color: #ecf1f2;
 }
 
 .food tr:last-child {
@@ -37,5 +37,6 @@ td,th{
 .food tr:first-child {
 	border-top: none;
 }
+
 
 /* 回答はここに書いてね */
