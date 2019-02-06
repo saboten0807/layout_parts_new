@@ -9,7 +9,7 @@
 	margin: 0 auto;
 }
 
-.balloon_image{
+.left_image{
 	float: left;
 	margin: 0 20px 10px 0;
 }
@@ -20,7 +20,7 @@
 	word-break: break-all;
 }
 
-.art_image{
+.right_image{
 	float: right;
 	margin: 0 0 10px 20px;
 }
